@@ -1,0 +1,165 @@
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#title{
+
+  background-color: #ff4c68
+
+}
+
+.heading{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+
+}
+.navbar{
+  font-family: 'Ubuntu', sans-serif;
+
+  font-weight: bold;
+  padding:0 0 4.5rem 0;
+}
+
+
+.navbar-brand{
+  font-size: 2.7rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-family: 'Ubuntu-bold', sans-serif;
+}
+
+/*---download-button---*/
+.download-button{
+  margin: 5% 4% 5% 0;
+}
+
+/*---title-image---*/
+.title-image{
+  width: 80%;
+  right: 0;
+  position: absolute;
+  transform: rotate(25deg);
+
+
+}
+
+/*features section*/
+
+#features{
+  padding: 7% 15%;
+  font-family: 'Montserrat-semi-bold', sans-serif;
+  background-color: white;
+
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Testimonials*/
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.profile-picture{
+  width: 20%;
+  border-radius: 100%;
+  margin:5%;
+}
+
+h2{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.cnbc{
+  width: 13rem;
+ padding: 0 3rem;
+}
+.fox{
+  width: 15rem;
+  padding: 0 3rem;
+}
+.bi{
+  width: 15rem;
+  padding: 0 3rem;
+}
+.tnw{
+  width: 13rem;
+}
+.carousel-item{
+   padding: 7% 15%;
+}
+
+/*pricing*/
+
+#pricing{
+  padding:100px;
+  text-align: center;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width:991px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/*-----cta----*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 5%;
+}
+.heading-cta{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+
+}
+/*----Ending----*/
+#ending{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-media{
+  margin: 100% 1.5%;
+  color: black;
+}
+.copyright{
+  margin-top: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
